@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "habitat_msgs__py",
+		"source" : "/home/HabitatROS/build/habitat_msgs/habitat_msgs__py"
+	}
+}

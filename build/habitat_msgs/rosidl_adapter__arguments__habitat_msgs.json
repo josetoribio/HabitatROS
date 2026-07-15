@@ -1,0 +1,6 @@
+{
+  "package_name": "habitat_msgs",
+  "non_idl_tuples": [
+    "/home/HabitatROS/src/habitat_msgs:msg/HabitatSensor.msg"
+  ]
+}
