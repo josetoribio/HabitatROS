@@ -7,7 +7,7 @@ from habitat_msgs.msg import HabitatSensor
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('sht41_ema_filter')
 
         self.subscription = self.create_subscription(
             HabitatSensor,

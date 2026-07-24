@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/habitat_driver/habitat_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/habitat_driver/habitat_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/habitat_driver/habitat_driver.egg-info/entry_points.txt
+writing requirements to ../../build/habitat_driver/habitat_driver.egg-info/requires.txt
+writing top-level names to ../../build/habitat_driver/habitat_driver.egg-info/top_level.txt
+reading manifest file '../../build/habitat_driver/habitat_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/habitat_driver/habitat_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying habitat_driver/sub.py -> /home/HabitatROS/build/habitat_driver/build/lib/habitat_driver
+running install
+running install_lib
+copying /home/HabitatROS/build/habitat_driver/build/lib/habitat_driver/sub.py -> /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver
+byte-compiling /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver/sub.py to sub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/habitat_driver/habitat_driver.egg-info to /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sht41_node script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver
+Installing sub script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver
+writing list of installed files to '/home/HabitatROS/build/habitat_driver/install.log'

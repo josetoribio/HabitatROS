@@ -1,0 +1,25 @@
+[1.818s] Invoking command in '/home/HabitatROS/src/habitat_driver': PYTHONPATH=/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/habitat_driver build --build-base /home/HabitatROS/build/habitat_driver/build install --record /home/HabitatROS/build/habitat_driver/install.log --install-scripts $base/lib/habitat_driver --single-version-externally-managed install_data
+[2.481s] running egg_info
+[2.484s] writing ../../build/habitat_driver/habitat_driver.egg-info/PKG-INFO
+[2.485s] writing dependency_links to ../../build/habitat_driver/habitat_driver.egg-info/dependency_links.txt
+[2.486s] writing entry points to ../../build/habitat_driver/habitat_driver.egg-info/entry_points.txt
+[2.486s] writing requirements to ../../build/habitat_driver/habitat_driver.egg-info/requires.txt
+[2.487s] writing top-level names to ../../build/habitat_driver/habitat_driver.egg-info/top_level.txt
+[2.493s] reading manifest file '../../build/habitat_driver/habitat_driver.egg-info/SOURCES.txt'
+[2.497s] writing manifest file '../../build/habitat_driver/habitat_driver.egg-info/SOURCES.txt'
+[2.498s] running build
+[2.500s] running build_py
+[2.501s] copying habitat_driver/sub.py -> /home/HabitatROS/build/habitat_driver/build/lib/habitat_driver
+[2.501s] running install
+[2.502s] running install_lib
+[2.504s] copying /home/HabitatROS/build/habitat_driver/build/lib/habitat_driver/sub.py -> /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver
+[2.507s] byte-compiling /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver/sub.py to sub.cpython-310.pyc
+[2.510s] running install_data
+[2.510s] running install_egg_info
+[2.520s] removing '/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[2.521s] Copying ../../build/habitat_driver/habitat_driver.egg-info to /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver-0.0.0-py3.10.egg-info
+[2.525s] running install_scripts
+[2.596s] Installing sht41_node script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver
+[2.596s] Installing sub script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver
+[2.598s] writing list of installed files to '/home/HabitatROS/build/habitat_driver/install.log'
+[2.711s] Invoked command in '/home/HabitatROS/src/habitat_driver' returned '0': PYTHONPATH=/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/habitat_driver build --build-base /home/HabitatROS/build/habitat_driver/build install --record /home/HabitatROS/build/habitat_driver/install.log --install-scripts $base/lib/habitat_driver --single-version-externally-managed install_data
