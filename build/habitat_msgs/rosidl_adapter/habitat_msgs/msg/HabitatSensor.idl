@@ -2,10 +2,13 @@
 // with input from habitat_msgs/msg/HabitatSensor.msg
 // generated code does not contain a copyright notice
 
+#include "std_msgs/msg/Header.idl"
 
 module habitat_msgs {
   module msg {
     struct HabitatSensor {
+      std_msgs::msg::Header header;
+
       float temperature_c;
 
       float humidity_percent;

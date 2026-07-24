@@ -14,6 +14,11 @@ pub struct HabitatSensor {
 
     // This member is not documented.
     #[allow(missing_docs)]
+    pub header: std_msgs::msg::Header,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
     pub temperature_c: f32,
 
 
@@ -42,11 +47,13 @@ impl rosidl_runtime_rs::Message for HabitatSensor {
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        header: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Owned(msg.header)).into_owned(),
         temperature_c: msg.temperature_c,
         humidity_percent: msg.humidity_percent,
         sensor_id: msg.sensor_id.as_str().into(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        header: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Borrowed(&msg.header)).into_owned(),
       temperature_c: msg.temperature_c,
       humidity_percent: msg.humidity_percent,
         sensor_id: msg.sensor_id.as_str().into(),
@@ -56,6 +63,7 @@ impl rosidl_runtime_rs::Message for HabitatSensor {
 
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
+      header: std_msgs::msg::Header::from_rmw_message(msg.header),
       temperature_c: msg.temperature_c,
       humidity_percent: msg.humidity_percent,
       sensor_id: msg.sensor_id.to_string(),

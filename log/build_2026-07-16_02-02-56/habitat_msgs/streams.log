@@ -1,0 +1,207 @@
+[0.038s] Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake /home/HabitatROS/src/habitat_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/HabitatROS/install/habitat_msgs
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.419s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.670s] -- Detecting C compiler ABI info - done
+[0.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.694s] -- Detecting C compile features
+[0.695s] -- Detecting C compile features - done
+[0.705s] -- Detecting CXX compiler ABI info
+[0.966s] -- Detecting CXX compiler ABI info - done
+[0.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.991s] -- Detecting CXX compile features
+[0.992s] -- Detecting CXX compile features - done
+[1.000s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.737s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.764s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.992s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[2.932s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.576s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.580s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.639s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.640s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.640s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.692s] -- Found PythonExtra: .so  
+[5.093s] -- Configuring done
+[5.216s] -- Generating done
+[5.258s] -- Build files have been written to: /home/HabitatROS/build/habitat_msgs
+[5.282s] Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake /home/HabitatROS/src/habitat_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/HabitatROS/install/habitat_msgs
+[5.284s] Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --build /home/HabitatROS/build/habitat_msgs -- -j4 -l4
+[5.412s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.449s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.452s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.489s] [  9%] Built target ament_cmake_python_symlink_habitat_msgs
+[6.560s] running egg_info
+[6.566s] creating habitat_msgs.egg-info
+[6.568s] writing habitat_msgs.egg-info/PKG-INFO
+[6.570s] writing dependency_links to habitat_msgs.egg-info/dependency_links.txt
+[6.576s] writing top-level names to habitat_msgs.egg-info/top_level.txt
+[6.579s] writing manifest file 'habitat_msgs.egg-info/SOURCES.txt'
+[6.601s] reading manifest file 'habitat_msgs.egg-info/SOURCES.txt'
+[6.608s] writing manifest file 'habitat_msgs.egg-info/SOURCES.txt'
+[6.830s] [  9%] Built target ament_cmake_python_build_habitat_msgs_egg
+[6.854s] [  9%] Built target habitat_msgs__rs
+[6.910s] [  9%] Built target habitat_msgs__cpp
+[6.929s] [ 12%] [32mBuilding C object CMakeFiles/habitat_msgs__rosidl_generator_c.dir/rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__functions.c.o[0m
+[6.949s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.952s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.954s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.202s] [ 25%] [32m[1mLinking C shared library libhabitat_msgs__rosidl_generator_c.so[0m
+[7.394s] [ 25%] Built target habitat_msgs__rosidl_generator_c
+[7.435s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.190s] [ 31%] [32mBuilding CXX object CMakeFiles/habitat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/habitat_msgs/msg/habitat_sensor__type_support.cpp.o[0m
+[8.231s] [ 34%] [32mBuilding CXX object CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__type_support.cpp.o[0m
+[8.275s] [ 37%] [32mBuilding CXX object CMakeFiles/habitat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/habitat_msgs/msg/detail/dds_fastrtps/habitat_sensor__type_support.cpp.o[0m
+[8.674s] [ 40%] [32mBuilding CXX object CMakeFiles/habitat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/habitat_msgs/msg/habitat_sensor__type_support.cpp.o[0m
+[8.828s] [ 43%] [32m[1mLinking CXX shared library libhabitat_msgs__rosidl_typesupport_c.so[0m
+[9.034s] [ 43%] Built target habitat_msgs__rosidl_typesupport_c
+[9.089s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.739s] [ 50%] [32m[1mLinking CXX shared library libhabitat_msgs__rosidl_typesupport_cpp.so[0m
+[9.935s] [ 50%] Built target habitat_msgs__rosidl_typesupport_cpp
+[9.985s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.571s] [ 56%] [32mBuilding CXX object CMakeFiles/habitat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/habitat_msgs/msg/detail/habitat_sensor__type_support_c.cpp.o[0m
+[10.587s] [ 59%] [32m[1mLinking CXX shared library libhabitat_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.646s] [ 62%] [32m[1mLinking CXX shared library libhabitat_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.930s] [ 62%] Built target habitat_msgs__rosidl_typesupport_introspection_cpp
+[11.032s] [ 62%] Built target habitat_msgs__rosidl_typesupport_fastrtps_cpp
+[11.295s] [ 65%] [32mBuilding C object CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/habitat_msgs/msg/detail/habitat_sensor__type_support.c.o[0m
+[11.431s] [ 68%] [32m[1mLinking C shared library libhabitat_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.542s] [ 68%] Built target habitat_msgs__rosidl_typesupport_introspection_c
+[12.039s] [ 71%] [32m[1mLinking CXX shared library libhabitat_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.296s] [ 71%] Built target habitat_msgs__rosidl_typesupport_fastrtps_c
+[12.357s] [ 71%] Built target habitat_msgs
+[12.417s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.533s] [ 75%] Built target habitat_msgs__py
+[13.593s] [ 78%] [32mBuilding C object CMakeFiles/habitat_msgs__rosidl_generator_py.dir/rosidl_generator_py/habitat_msgs/msg/_habitat_sensor_s.c.o[0m
+[13.954s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so[0m
+[14.104s] [ 81%] Built target habitat_msgs__rosidl_generator_py
+[14.174s] [ 90%] [32mBuilding C object CMakeFiles/habitat_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.175s] [ 90%] [32mBuilding C object CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.176s] [ 90%] [32mBuilding C object CMakeFiles/habitat_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.573s] [100%] [32m[1mLinking C shared library rosidl_generator_py/habitat_msgs/habitat_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.573s] [100%] [32m[1mLinking C shared library rosidl_generator_py/habitat_msgs/habitat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.574s] [100%] [32m[1mLinking C shared library rosidl_generator_py/habitat_msgs/habitat_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.802s] [100%] Built target habitat_msgs__rosidl_typesupport_introspection_c__pyext
+[14.803s] [100%] Built target habitat_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.803s] [100%] Built target habitat_msgs__rosidl_typesupport_c__pyext
+[14.838s] Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --build /home/HabitatROS/build/habitat_msgs -- -j4 -l4
+[14.868s] Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --install /home/HabitatROS/build/habitat_msgs
+[14.892s] -- Install configuration: ""
+[14.894s] -- Execute custom install script
+[14.896s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/rosidl_interfaces/habitat_msgs
+[14.923s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__functions.h
+[14.949s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__struct.h
+[14.975s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__type_support.h
+[15.001s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/habitat_sensor.h
+[15.027s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.054s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/library_path.sh
+[15.079s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/library_path.dsv
+[15.106s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_fastrtps_c.h
+[15.133s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.161s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_c.h
+[15.187s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.214s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__builder.hpp
+[15.240s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__struct.hpp
+[15.268s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__traits.hpp
+[15.293s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__type_support.hpp
+[15.320s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/habitat_sensor.hpp
+[15.345s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.374s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[15.400s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.426s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp
+[15.454s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/pythonpath.sh
+[15.481s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/pythonpath.dsv
+[15.509s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[15.535s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.561s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.588s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[15.615s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/__init__.py
+[15.641s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_c.c
+[15.668s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.694s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.722s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[15.747s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[15.773s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[15.800s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so
+[15.826s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/__init__.py
+[15.853s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/_habitat_sensor.py
+[15.879s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/_habitat_sensor_s.c
+[15.906s] -- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[15.907s] -- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[15.908s] -- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[15.909s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/rust_packages/habitat_msgs
+[15.936s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/Cargo.toml
+[15.964s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/build.rs
+[15.990s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/src/lib.rs
+[16.016s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/src/msg.rs
+[16.042s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/src/msg/rmw.rs
+[16.070s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/msg/HabitatSensor.idl
+[16.097s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/msg/HabitatSensor.msg
+[16.123s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/package_run_dependencies/habitat_msgs
+[16.149s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/parent_prefix_path/habitat_msgs
+[16.177s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/ament_prefix_path.sh
+[16.203s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/ament_prefix_path.dsv
+[16.230s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/path.sh
+[16.258s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/path.dsv
+[16.284s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.bash
+[16.311s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.sh
+[16.340s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.zsh
+[16.368s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.dsv
+[16.394s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.dsv
+[16.422s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/packages/habitat_msgs
+[16.449s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/rosidl_cmake-extras.cmake
+[16.476s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.503s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.530s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.557s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.583s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.610s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.637s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgsConfig.cmake
+[16.664s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgsConfig-version.cmake
+[16.691s] -- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.xml
+[16.718s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_generator_c.so
+[16.719s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_generator_c.so" to ""
+[16.720s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_fastrtps_c.so
+[16.721s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.722s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_introspection_c.so
+[16.723s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.723s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_c.so
+[16.725s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_c.so" to ""
+[16.725s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.727s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.727s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_introspection_cpp.so
+[16.729s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.729s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_cpp.so
+[16.730s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_cpp.so" to ""
+[16.852s] Listing '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs'...
+[16.853s] Compiling '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/__init__.py'...
+[16.854s] Listing '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg'...
+[16.855s] Compiling '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/__init__.py'...
+[16.856s] Compiling '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/_habitat_sensor.py'...
+[16.877s] -- Installing: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_generator_py.so
+[16.878s] -- Set runtime path of "/home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_generator_py.so" to ""
+[16.879s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_cExport.cmake
+[16.879s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.880s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.881s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.882s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.882s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.883s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cExport.cmake
+[16.884s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.885s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_cppExport.cmake
+[16.886s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.886s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.887s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.888s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.889s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cppExport.cmake
+[16.889s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.890s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_pyExport.cmake
+[16.891s] -- Installing: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.899s] Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --install /home/HabitatROS/build/habitat_msgs

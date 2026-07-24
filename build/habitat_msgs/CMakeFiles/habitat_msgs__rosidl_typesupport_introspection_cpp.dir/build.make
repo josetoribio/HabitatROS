@@ -78,6 +78,38 @@ rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__ros
 rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
 rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/habitat_msgs/msg/HabitatSensor.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Char.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Empty.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Float32.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Float64.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Header.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int16.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int32.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int64.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int8.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/String.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/HabitatROS/build/habitat_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/HabitatROS/build/habitat_msgs/rosidl_typesupport_introspection_cpp__arguments.json
 
@@ -107,10 +139,12 @@ habitat_msgs__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/habitat_msgs/msg/detail/habitat_sensor__type_support.cpp.o
 libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_cpp.dir/build.make
+libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librcutils.so
-libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libhabitat_msgs__rosidl_typesupport_introspection_cpp.so: CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/HabitatROS/build/habitat_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libhabitat_msgs__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/habitat_msgs__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)

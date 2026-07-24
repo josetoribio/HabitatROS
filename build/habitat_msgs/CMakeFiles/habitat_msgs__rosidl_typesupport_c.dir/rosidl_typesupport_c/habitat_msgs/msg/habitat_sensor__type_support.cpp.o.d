@@ -25,6 +25,8 @@ CMakeFiles/habitat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/habitat_m
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/HabitatROS/build/habitat_msgs/rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__type_support.h \

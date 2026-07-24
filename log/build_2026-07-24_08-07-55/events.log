@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.001806] (habitat_msgs) JobQueued: {'identifier': 'habitat_msgs', 'dependencies': OrderedDict()}
+[0.002335] (habitat_driver) JobQueued: {'identifier': 'habitat_driver', 'dependencies': OrderedDict([('habitat_msgs', '/home/HabitatROS/install/habitat_msgs')])}
+[0.002816] (habitat_msgs) JobStarted: {'identifier': 'habitat_msgs'}
+[0.034085] (habitat_msgs) JobProgress: {'identifier': 'habitat_msgs', 'progress': 'cmake'}
+[0.036433] (habitat_msgs) JobProgress: {'identifier': 'habitat_msgs', 'progress': 'build'}
+[0.038748] (habitat_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/HabitatROS/build/habitat_msgs', '--', '-j4', '-l4'], 'cwd': '/home/HabitatROS/build/habitat_msgs', 'env': OrderedDict([('HOSTNAME', 'amelia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/HabitatROS/install/habitat_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/HabitatROS/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/HabitatROS/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/HabitatROS/install/habitat_driver:/home/HabitatROS/install/habitat_msgs:/opt/ros/humble'), ('PWD', '/home/HabitatROS/build/habitat_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/HabitatROS/build/habitat_driver:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/HabitatROS/install/habitat_msgs:/home/HabitatROS/install/habitat_driver:/opt/ros/humble')]), 'shell': False}
+[0.099135] (-) TimerEvent: {}
+[0.199894] (-) TimerEvent: {}
+[0.219400] (habitat_msgs) StdoutLine: {'line': b'[  3%] Built target habitat_msgs__cpp\n'}
+[0.222282] (habitat_msgs) StdoutLine: {'line': b'[  6%] Built target habitat_msgs__rs\n'}
+[0.225107] (habitat_msgs) StdoutLine: {'line': b'[ 15%] Built target habitat_msgs__rosidl_generator_c\n'}
+[0.254258] (habitat_msgs) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_symlink_habitat_msgs\n'}
+[0.300368] (-) TimerEvent: {}
+[0.311548] (habitat_msgs) StdoutLine: {'line': b'[ 34%] Built target habitat_msgs__rosidl_typesupport_cpp\n'}
+[0.312509] (habitat_msgs) StdoutLine: {'line': b'[ 34%] Built target habitat_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.317697] (habitat_msgs) StdoutLine: {'line': b'[ 43%] Built target habitat_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.351286] (habitat_msgs) StdoutLine: {'line': b'[ 53%] Built target habitat_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.389970] (habitat_msgs) StdoutLine: {'line': b'[ 62%] Built target habitat_msgs__rosidl_typesupport_introspection_c\n'}
+[0.393670] (habitat_msgs) StdoutLine: {'line': b'[ 71%] Built target habitat_msgs__rosidl_typesupport_c\n'}
+[0.400503] (-) TimerEvent: {}
+[0.468162] (habitat_msgs) StdoutLine: {'line': b'[ 71%] Built target habitat_msgs\n'}
+[0.500711] (-) TimerEvent: {}
+[0.544250] (habitat_msgs) StdoutLine: {'line': b'[ 75%] Built target habitat_msgs__py\n'}
+[0.600901] (-) TimerEvent: {}
+[0.626865] (habitat_msgs) StdoutLine: {'line': b'[ 81%] Built target habitat_msgs__rosidl_generator_py\n'}
+[0.701211] (-) TimerEvent: {}
+[0.711546] (habitat_msgs) StdoutLine: {'line': b'[ 90%] Built target habitat_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.713052] (habitat_msgs) StdoutLine: {'line': b'[ 93%] Built target habitat_msgs__rosidl_typesupport_c__pyext\n'}
+[0.730118] (habitat_msgs) StdoutLine: {'line': b'[100%] Built target habitat_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.801340] (-) TimerEvent: {}
+[0.902068] (-) TimerEvent: {}
+[1.002737] (-) TimerEvent: {}
+[1.102448] (habitat_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.102969] (-) TimerEvent: {}
+[1.105378] (habitat_msgs) StdoutLine: {'line': b'writing habitat_msgs.egg-info/PKG-INFO\n'}
+[1.106347] (habitat_msgs) StdoutLine: {'line': b'writing dependency_links to habitat_msgs.egg-info/dependency_links.txt\n'}
+[1.107313] (habitat_msgs) StdoutLine: {'line': b'writing top-level names to habitat_msgs.egg-info/top_level.txt\n'}
+[1.114790] (habitat_msgs) StdoutLine: {'line': b"reading manifest file 'habitat_msgs.egg-info/SOURCES.txt'\n"}
+[1.117009] (habitat_msgs) StdoutLine: {'line': b"writing manifest file 'habitat_msgs.egg-info/SOURCES.txt'\n"}
+[1.203356] (-) TimerEvent: {}
+[1.234692] (habitat_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_habitat_msgs_egg\n'}
+[1.269188] (habitat_msgs) CommandEnded: {'returncode': 0}
+[1.271085] (habitat_msgs) JobProgress: {'identifier': 'habitat_msgs', 'progress': 'install'}
+[1.300094] (habitat_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/HabitatROS/build/habitat_msgs'], 'cwd': '/home/HabitatROS/build/habitat_msgs', 'env': OrderedDict([('HOSTNAME', 'amelia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/HabitatROS/install/habitat_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/HabitatROS/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/HabitatROS/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/HabitatROS/install/habitat_driver:/home/HabitatROS/install/habitat_msgs:/opt/ros/humble'), ('PWD', '/home/HabitatROS/build/habitat_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/HabitatROS/build/habitat_driver:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/HabitatROS/install/habitat_msgs:/home/HabitatROS/install/habitat_driver:/opt/ros/humble')]), 'shell': False}
+[1.304628] (-) TimerEvent: {}
+[1.326591] (habitat_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.328469] (habitat_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.329625] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/rosidl_interfaces/habitat_msgs\n'}
+[1.331207] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__functions.h\n'}
+[1.331806] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__struct.h\n'}
+[1.332441] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__type_support.h\n'}
+[1.333018] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/habitat_sensor.h\n'}
+[1.333665] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.334346] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/library_path.sh\n'}
+[1.334932] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/library_path.dsv\n'}
+[1.336402] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[1.336933] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.338051] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_c.h\n'}
+[1.338608] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.339764] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__builder.hpp\n'}
+[1.340288] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__struct.hpp\n'}
+[1.340772] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__traits.hpp\n'}
+[1.341278] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__type_support.hpp\n'}
+[1.341821] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/habitat_sensor.hpp\n'}
+[1.342328] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.343702] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.344233] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.345296] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/include/habitat_msgs/habitat_msgs/msg/detail/habitat_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.345953] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/pythonpath.sh\n'}
+[1.346485] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/pythonpath.dsv\n'}
+[1.347562] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.348487] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.349098] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.349445] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.350876] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/__init__.py\n'}
+[1.351403] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.351892] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.352369] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/_habitat_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.352838] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.353309] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.353860] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.354333] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so\n'}
+[1.354810] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/__init__.py\n'}
+[1.355311] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/_habitat_sensor.py\n'}
+[1.355774] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg/_habitat_sensor_s.c\n'}
+[1.356398] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.357296] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.358255] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/habitat_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.358872] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/rust_packages/habitat_msgs\n'}
+[1.360117] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/Cargo.toml\n'}
+[1.360627] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/build.rs\n'}
+[1.361101] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/src/lib.rs\n'}
+[1.361628] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/src/msg.rs\n'}
+[1.362143] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/rust/src/msg/rmw.rs\n'}
+[1.362598] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/msg/HabitatSensor.idl\n'}
+[1.363108] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/msg/HabitatSensor.msg\n'}
+[1.363743] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/package_run_dependencies/habitat_msgs\n'}
+[1.364362] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/parent_prefix_path/habitat_msgs\n'}
+[1.364983] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/ament_prefix_path.sh\n'}
+[1.365582] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/ament_prefix_path.dsv\n'}
+[1.366286] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/path.sh\n'}
+[1.366830] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/environment/path.dsv\n'}
+[1.367398] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.bash\n'}
+[1.367937] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.sh\n'}
+[1.368493] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.zsh\n'}
+[1.369041] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/local_setup.dsv\n'}
+[1.369557] (habitat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.dsv\n'}
+[1.397382] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/ament_index/resource_index/packages/habitat_msgs\n'}
+[1.398067] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.398601] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.399143] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.399726] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.400297] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.400874] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.401438] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.402082] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgsConfig.cmake\n'}
+[1.402572] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgsConfig-version.cmake\n'}
+[1.403096] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.xml\n'}
+[1.404024] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_generator_c.so\n'}
+[1.404721] (-) TimerEvent: {}
+[1.405333] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.406910] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.407986] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_c.so\n'}
+[1.409120] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.410403] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.411520] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_typesupport_cpp.so\n'}
+[1.504891] (-) TimerEvent: {}
+[1.527431] (habitat_msgs) StdoutLine: {'line': b"Listing '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs'...\n"}
+[1.528739] (habitat_msgs) StdoutLine: {'line': b"Listing '/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages/habitat_msgs/msg'...\n"}
+[1.550611] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/lib/libhabitat_msgs__rosidl_generator_py.so\n'}
+[1.551476] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_cExport.cmake\n'}
+[1.552252] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.552881] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.553638] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.554384] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.555290] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.555932] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.556278] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.556596] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.556943] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.557327] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.557779] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.558134] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.558478] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.558793] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/habitat_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.559345] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.559886] (habitat_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/HabitatROS/install/habitat_msgs/share/habitat_msgs/cmake/export_habitat_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.562055] (habitat_msgs) CommandEnded: {'returncode': 0}
+[1.606908] (-) TimerEvent: {}
+[1.659461] (habitat_msgs) JobEnded: {'identifier': 'habitat_msgs', 'rc': 0}
+[1.663826] (habitat_driver) JobStarted: {'identifier': 'habitat_driver'}
+[1.707097] (-) TimerEvent: {}
+[1.807766] (-) TimerEvent: {}
+[1.908478] (-) TimerEvent: {}
+[2.015304] (-) TimerEvent: {}
+[2.116018] (-) TimerEvent: {}
+[2.216692] (-) TimerEvent: {}
+[2.317367] (-) TimerEvent: {}
+[2.418297] (-) TimerEvent: {}
+[2.519311] (-) TimerEvent: {}
+[2.620027] (-) TimerEvent: {}
+[2.720716] (-) TimerEvent: {}
+[2.821441] (-) TimerEvent: {}
+[2.922159] (-) TimerEvent: {}
+[3.022809] (-) TimerEvent: {}
+[3.123506] (-) TimerEvent: {}
+[3.224236] (-) TimerEvent: {}
+[3.324930] (-) TimerEvent: {}
+[3.425762] (-) TimerEvent: {}
+[3.492135] (habitat_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/habitat_driver', 'build', '--build-base', '/home/HabitatROS/build/habitat_driver/build', 'install', '--record', '/home/HabitatROS/build/habitat_driver/install.log', '--install-scripts', '$base/lib/habitat_driver', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/HabitatROS/src/habitat_driver', 'env': {'HOSTNAME': 'amelia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/HabitatROS/install/habitat_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/HabitatROS/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/HabitatROS/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/HabitatROS/install/habitat_driver:/home/HabitatROS/install/habitat_msgs:/opt/ros/humble', 'PWD': '/home/HabitatROS/build/habitat_driver', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:/home/HabitatROS/build/habitat_driver:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/HabitatROS/install/habitat_msgs'}, 'shell': False}
+[3.525893] (-) TimerEvent: {}
+[3.626727] (-) TimerEvent: {}
+[3.727781] (-) TimerEvent: {}
+[3.828554] (-) TimerEvent: {}
+[3.929248] (-) TimerEvent: {}
+[4.030336] (-) TimerEvent: {}
+[4.131272] (-) TimerEvent: {}
+[4.213310] (habitat_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.215931] (habitat_driver) StdoutLine: {'line': b'writing ../../build/habitat_driver/habitat_driver.egg-info/PKG-INFO\n'}
+[4.216890] (habitat_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/habitat_driver/habitat_driver.egg-info/dependency_links.txt\n'}
+[4.217791] (habitat_driver) StdoutLine: {'line': b'writing entry points to ../../build/habitat_driver/habitat_driver.egg-info/entry_points.txt\n'}
+[4.218538] (habitat_driver) StdoutLine: {'line': b'writing requirements to ../../build/habitat_driver/habitat_driver.egg-info/requires.txt\n'}
+[4.219168] (habitat_driver) StdoutLine: {'line': b'writing top-level names to ../../build/habitat_driver/habitat_driver.egg-info/top_level.txt\n'}
+[4.225626] (habitat_driver) StdoutLine: {'line': b"reading manifest file '../../build/habitat_driver/habitat_driver.egg-info/SOURCES.txt'\n"}
+[4.229415] (habitat_driver) StdoutLine: {'line': b"writing manifest file '../../build/habitat_driver/habitat_driver.egg-info/SOURCES.txt'\n"}
+[4.230154] (habitat_driver) StdoutLine: {'line': b'running build\n'}
+[4.230493] (habitat_driver) StdoutLine: {'line': b'running build_py\n'}
+[4.231063] (habitat_driver) StdoutLine: {'line': b'copying habitat_driver/sub.py -> /home/HabitatROS/build/habitat_driver/build/lib/habitat_driver\n'}
+[4.231461] (-) TimerEvent: {}
+[4.233324] (habitat_driver) StdoutLine: {'line': b'running install\n'}
+[4.234601] (habitat_driver) StdoutLine: {'line': b'running install_lib\n'}
+[4.237282] (habitat_driver) StdoutLine: {'line': b'copying /home/HabitatROS/build/habitat_driver/build/lib/habitat_driver/sub.py -> /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver\n'}
+[4.240052] (habitat_driver) StdoutLine: {'line': b'byte-compiling /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver/sub.py to sub.cpython-310.pyc\n'}
+[4.240955] (habitat_driver) StderrLine: {'line': b'Sorry: IndentationError: unexpected indent (sub.py, line 17)\n'}
+[4.241620] (habitat_driver) StdoutLine: {'line': b'running install_data\n'}
+[4.242123] (habitat_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.252988] (habitat_driver) StdoutLine: {'line': b"removing '/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.254399] (habitat_driver) StdoutLine: {'line': b'Copying ../../build/habitat_driver/habitat_driver.egg-info to /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat_driver-0.0.0-py3.10.egg-info\n'}
+[4.257995] (habitat_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[4.327862] (habitat_driver) StdoutLine: {'line': b'Installing sht41_node script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver\n'}
+[4.328664] (habitat_driver) StdoutLine: {'line': b'Installing sub script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver\n'}
+[4.330482] (habitat_driver) StdoutLine: {'line': b"writing list of installed files to '/home/HabitatROS/build/habitat_driver/install.log'\n"}
+[4.331909] (-) TimerEvent: {}
+[4.433063] (-) TimerEvent: {}
+[4.445036] (habitat_driver) CommandEnded: {'returncode': 0}
+[4.471870] (habitat_driver) JobEnded: {'identifier': 'habitat_driver', 'rc': 0}
+[4.476522] (-) EventReactorShutdown: {}

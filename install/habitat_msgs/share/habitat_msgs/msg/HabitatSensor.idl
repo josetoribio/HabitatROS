@@ -1,16 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from habitat_msgs/msg/HabitatSensor.msg
-// generated code does not contain a copyright notice
-
-
-module habitat_msgs {
-  module msg {
-    struct HabitatSensor {
-      float temperature_c;
-
-      float humidity_percent;
-
-      string sensor_id;
-    };
-  };
-};
+/home/HabitatROS/build/habitat_msgs/rosidl_adapter/habitat_msgs/msg/HabitatSensor.idl

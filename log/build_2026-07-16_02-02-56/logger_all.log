@@ -1,0 +1,210 @@
+[0.414s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.414s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9b8563e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9b97b5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9b97b5b0>>, mixin_verb=('build',))
+[0.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.826s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.828s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.830s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.831s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/HabitatROS'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_driver) by extension 'ros'
+[0.889s] DEBUG:colcon.colcon_core.package_identification:Package 'src/habitat_driver' with type 'ros.ament_python' and name 'habitat_driver'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extension 'ignore_ament_install'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extensions ['colcon_pkg']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extension 'colcon_pkg'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extensions ['colcon_meta']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/habitat_msgs) by extension 'ros'
+[0.893s] DEBUG:colcon.colcon_core.package_identification:Package 'src/habitat_msgs' with type 'ros.ament_cmake' and name 'habitat_msgs'
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'cmake_target' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'habitat_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'habitat_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/HabitatROS/build/habitat_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/HabitatROS/install/habitat_msgs', 'merge_install': False, 'path': '/home/HabitatROS/src/habitat_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'cmake_target' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'habitat_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'habitat_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/HabitatROS/build/habitat_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/HabitatROS/install/habitat_driver', 'merge_install': False, 'path': '/home/HabitatROS/src/habitat_driver', 'symlink_install': True, 'test_result_base': None}
+[0.971s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.975s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/HabitatROS/src/habitat_msgs' with build type 'ament_cmake'
+[0.976s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/HabitatROS/src/habitat_msgs'
+[0.984s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.985s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.985s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.989s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/HabitatROS/install/habitat_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.989s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/HabitatROS/install/habitat_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.990s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/HabitatROS/install/habitat_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake /home/HabitatROS/src/habitat_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/HabitatROS/install/habitat_msgs
+[6.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake /home/HabitatROS/src/habitat_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/HabitatROS/install/habitat_msgs
+[6.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --build /home/HabitatROS/build/habitat_msgs -- -j4 -l4
+[15.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --build /home/HabitatROS/build/habitat_msgs -- -j4 -l4
+[15.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --install /home/HabitatROS/build/habitat_msgs
+[17.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(habitat_msgs)
+[17.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/HabitatROS/install/habitat_driver:/opt/ros/humble /usr/bin/cmake --install /home/HabitatROS/build/habitat_msgs
+[17.882s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs' for CMake module files
+[17.885s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs' for CMake config files
+[17.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_msgs', 'cmake_prefix_path')
+[17.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/cmake_prefix_path.ps1'
+[17.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/cmake_prefix_path.dsv'
+[17.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/cmake_prefix_path.sh'
+[17.897s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/lib'
+[17.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_msgs', 'ld_library_path_lib')
+[17.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/ld_library_path_lib.ps1'
+[17.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/ld_library_path_lib.dsv'
+[17.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/ld_library_path_lib.sh'
+[17.903s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/bin'
+[17.904s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/lib/pkgconfig/habitat_msgs.pc'
+[17.910s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/lib/python3.10/site-packages'
+[17.912s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/bin'
+[17.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.ps1'
+[17.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.dsv'
+[17.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.sh'
+[17.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.bash'
+[17.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.zsh'
+[17.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/HabitatROS/install/habitat_msgs/share/colcon-core/packages/habitat_msgs)
+[17.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(habitat_msgs)
+[17.933s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs' for CMake module files
+[17.936s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs' for CMake config files
+[17.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_msgs', 'cmake_prefix_path')
+[17.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/cmake_prefix_path.ps1'
+[17.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/cmake_prefix_path.dsv'
+[17.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/cmake_prefix_path.sh'
+[17.946s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/lib'
+[17.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_msgs', 'ld_library_path_lib')
+[17.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/ld_library_path_lib.ps1'
+[17.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/ld_library_path_lib.dsv'
+[17.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/hook/ld_library_path_lib.sh'
+[17.952s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/bin'
+[17.952s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/lib/pkgconfig/habitat_msgs.pc'
+[17.953s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/lib/python3.10/site-packages'
+[17.954s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_msgs/bin'
+[17.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.ps1'
+[17.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.dsv'
+[17.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.sh'
+[17.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.bash'
+[17.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_msgs/share/habitat_msgs/package.zsh'
+[17.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/HabitatROS/install/habitat_msgs/share/colcon-core/packages/habitat_msgs)
+[17.968s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/HabitatROS/src/habitat_driver' with build type 'ament_python'
+[17.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_driver', 'ament_prefix_path')
+[17.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_driver/share/habitat_driver/hook/ament_prefix_path.ps1'
+[17.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/install/habitat_driver/share/habitat_driver/hook/ament_prefix_path.dsv'
+[17.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_driver/share/habitat_driver/hook/ament_prefix_path.sh'
+[17.977s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.738s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/HabitatROS/src/habitat_driver'
+[18.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.778s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, clean, register, install_headers, rotate, build_py, upload, build_scripts, upload_docs, check, build_ext, bdist_egg, install_scripts, sdist, setopt, build, bdist, install_data, egg_info, bdist_dumb, alias, dist_info, install_egg_info, install_lib, saveopts, develop, test, symlink_data, easy_install, bdist_rpm, build_clib
+[20.621s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --force-installation-into-system-dir, --always-copy, --build-directory, --multi-version, --egg-path, --always-unzip, --version, --no-user-cfg, --verbose, --prefix, --allow-hosts, --uninstall, --install-dir, --zip-ok, --help, --index-url, --script-dir, --install-layout, --no-find-links, --no-deps, --local-snapshots-ok, --user, --editable, --site-dirs, --record, --exclude-scripts, --dry-run, --find-links, --upgrade, --quiet
+[20.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/HabitatROS/build/habitat_driver': PYTHONPATH=/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/HabitatROS/build/habitat_driver/build --no-deps symlink_data
+[21.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_driver', 'pythonpath_develop')
+[21.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/build/habitat_driver/share/habitat_driver/hook/pythonpath_develop.ps1'
+[21.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/HabitatROS/build/habitat_driver' returned '0': PYTHONPATH=/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/HabitatROS/build/habitat_driver/build --no-deps symlink_data
+[21.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/build/habitat_driver/share/habitat_driver/hook/pythonpath_develop.dsv'
+[21.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/build/habitat_driver/share/habitat_driver/hook/pythonpath_develop.sh'
+[21.817s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver' for CMake module files
+[21.819s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver' for CMake config files
+[21.820s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver/lib'
+[21.821s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver/bin'
+[21.821s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver/lib/pkgconfig/habitat_driver.pc'
+[21.822s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages'
+[21.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('habitat_driver', 'pythonpath')
+[21.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_driver/share/habitat_driver/hook/pythonpath.ps1'
+[21.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/HabitatROS/install/habitat_driver/share/habitat_driver/hook/pythonpath.dsv'
+[21.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/HabitatROS/install/habitat_driver/share/habitat_driver/hook/pythonpath.sh'
+[21.828s] Level 1:colcon.colcon_core.environment:checking '/home/HabitatROS/install/habitat_driver/bin'
+[21.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(habitat_driver)
+[21.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_driver/share/habitat_driver/package.ps1'
+[21.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/HabitatROS/install/habitat_driver/share/habitat_driver/package.dsv'
+[21.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_driver/share/habitat_driver/package.sh'
+[21.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_driver/share/habitat_driver/package.bash'
+[21.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/HabitatROS/install/habitat_driver/share/habitat_driver/package.zsh'
+[21.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/HabitatROS/install/habitat_driver/share/colcon-core/packages/habitat_driver)
+[21.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.842s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.842s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.862s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.863s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[21.863s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/HabitatROS/install/local_setup.ps1'
+[21.867s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/HabitatROS/install/_local_setup_util_ps1.py'
+[21.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/HabitatROS/install/setup.ps1'
+[21.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/HabitatROS/install/local_setup.sh'
+[21.879s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/HabitatROS/install/_local_setup_util_sh.py'
+[21.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/HabitatROS/install/setup.sh'
+[21.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/HabitatROS/install/local_setup.bash'
+[21.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/HabitatROS/install/setup.bash'
+[21.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/HabitatROS/install/local_setup.zsh'
+[21.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/HabitatROS/install/setup.zsh'

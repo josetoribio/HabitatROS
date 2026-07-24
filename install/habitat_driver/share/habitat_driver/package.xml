@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>habitat_driver</name>
+  <version>0.0.0</version>
+
+  <description>ROS 2 Hardware for HabitatROS</description>
+
+  <maintainer email="joseftoribio@yahoo.com">Jose</maintainer>
+
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>habitat_msgs</depend>
+  <depend>std_msgs</depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>

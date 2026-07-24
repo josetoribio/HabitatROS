@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.001896] (-) JobUnselected: {'identifier': 'habitat_msgs'}
+[0.002446] (habitat_driver) JobQueued: {'identifier': 'habitat_driver', 'dependencies': OrderedDict([('habitat_msgs', '/home/HabitatROS/install/habitat_msgs')])}
+[0.002634] (habitat_driver) JobStarted: {'identifier': 'habitat_driver'}
+[0.098773] (-) TimerEvent: {}
+[0.199670] (-) TimerEvent: {}
+[0.300951] (-) TimerEvent: {}
+[0.402048] (-) TimerEvent: {}
+[0.503163] (-) TimerEvent: {}
+[0.604207] (-) TimerEvent: {}
+[0.705456] (-) TimerEvent: {}
+[0.807326] (-) TimerEvent: {}
+[0.908374] (-) TimerEvent: {}
+[1.009418] (-) TimerEvent: {}
+[1.110467] (-) TimerEvent: {}
+[1.211533] (-) TimerEvent: {}
+[1.312519] (-) TimerEvent: {}
+[1.413513] (-) TimerEvent: {}
+[1.514558] (-) TimerEvent: {}
+[1.615632] (-) TimerEvent: {}
+[1.716811] (-) TimerEvent: {}
+[1.818510] (-) TimerEvent: {}
+[1.919641] (-) TimerEvent: {}
+[2.020654] (-) TimerEvent: {}
+[2.121618] (-) TimerEvent: {}
+[2.222721] (-) TimerEvent: {}
+[2.323714] (-) TimerEvent: {}
+[2.424729] (-) TimerEvent: {}
+[2.525738] (-) TimerEvent: {}
+[2.626991] (-) TimerEvent: {}
+[2.654096] (habitat_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/HabitatROS/build/habitat_driver/build', '--no-deps', 'symlink_data'], 'cwd': '/home/HabitatROS/build/habitat_driver', 'env': {'HOSTNAME': 'amelia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/HabitatROS/install/habitat_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/HabitatROS/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/HabitatROS/src/habitat_driver/habitat_driver/install:/home/HabitatROS/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/HabitatROS/install/habitat_driver:/home/HabitatROS/install/habitat_msgs:/opt/ros/humble', 'PWD': '/home/HabitatROS/build/habitat_driver', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:/home/HabitatROS/build/habitat_driver:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:/home/HabitatROS/install/habitat_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/HabitatROS/install/habitat_msgs'}, 'shell': False}
+[2.727120] (-) TimerEvent: {}
+[2.828166] (-) TimerEvent: {}
+[2.929239] (-) TimerEvent: {}
+[3.030673] (-) TimerEvent: {}
+[3.131622] (-) TimerEvent: {}
+[3.232562] (-) TimerEvent: {}
+[3.333732] (-) TimerEvent: {}
+[3.391485] (habitat_driver) StdoutLine: {'line': b'running develop\n'}
+[3.433782] (-) TimerEvent: {}
+[3.534757] (-) TimerEvent: {}
+[3.635760] (-) TimerEvent: {}
+[3.703662] (habitat_driver) StdoutLine: {'line': b'running egg_info\n'}
+[3.704368] (habitat_driver) StdoutLine: {'line': b'writing habitat_driver.egg-info/PKG-INFO\n'}
+[3.705102] (habitat_driver) StdoutLine: {'line': b'writing dependency_links to habitat_driver.egg-info/dependency_links.txt\n'}
+[3.706009] (habitat_driver) StdoutLine: {'line': b'writing entry points to habitat_driver.egg-info/entry_points.txt\n'}
+[3.706782] (habitat_driver) StdoutLine: {'line': b'writing requirements to habitat_driver.egg-info/requires.txt\n'}
+[3.707383] (habitat_driver) StdoutLine: {'line': b'writing top-level names to habitat_driver.egg-info/top_level.txt\n'}
+[3.713199] (habitat_driver) StdoutLine: {'line': b"reading manifest file 'habitat_driver.egg-info/SOURCES.txt'\n"}
+[3.715916] (habitat_driver) StdoutLine: {'line': b"writing manifest file 'habitat_driver.egg-info/SOURCES.txt'\n"}
+[3.720787] (habitat_driver) StdoutLine: {'line': b'running build_ext\n'}
+[3.721538] (habitat_driver) StdoutLine: {'line': b'Creating /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat-driver.egg-link (link to .)\n'}
+[3.724779] (habitat_driver) StdoutLine: {'line': b'Installing sht41_node script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver\n'}
+[3.726474] (habitat_driver) StdoutLine: {'line': b'\n'}
+[3.727023] (habitat_driver) StdoutLine: {'line': b'Installed /home/HabitatROS/build/habitat_driver\n'}
+[3.727362] (habitat_driver) StdoutLine: {'line': b'running symlink_data\n'}
+[3.736051] (-) TimerEvent: {}
+[3.837853] (-) TimerEvent: {}
+[3.846058] (habitat_driver) CommandEnded: {'returncode': 0}
+[3.893621] (habitat_driver) JobEnded: {'identifier': 'habitat_driver', 'rc': 0}
+[3.896859] (-) EventReactorShutdown: {}

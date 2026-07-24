@@ -1,0 +1,24 @@
+[2.656s] Invoking command in '/home/HabitatROS/build/habitat_driver': PYTHONPATH=/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/HabitatROS/build/habitat_driver/build --no-deps symlink_data
+[3.386s] running develop
+[3.692s] running egg_info
+[3.693s] creating habitat_driver.egg-info
+[3.693s] writing habitat_driver.egg-info/PKG-INFO
+[3.694s] writing dependency_links to habitat_driver.egg-info/dependency_links.txt
+[3.695s] writing entry points to habitat_driver.egg-info/entry_points.txt
+[3.696s] writing requirements to habitat_driver.egg-info/requires.txt
+[3.696s] writing top-level names to habitat_driver.egg-info/top_level.txt
+[3.697s] writing manifest file 'habitat_driver.egg-info/SOURCES.txt'
+[3.703s] reading manifest file 'habitat_driver.egg-info/SOURCES.txt'
+[3.705s] writing manifest file 'habitat_driver.egg-info/SOURCES.txt'
+[3.710s] running build_ext
+[3.711s] Creating /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat-driver.egg-link (link to .)
+[3.714s] Installing sht41_node script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver
+[3.716s] 
+[3.717s] Installed /home/HabitatROS/build/habitat_driver
+[3.717s] running symlink_data
+[3.718s] creating /home/HabitatROS/install/habitat_driver/share/ament_index
+[3.718s] creating /home/HabitatROS/install/habitat_driver/share/ament_index/resource_index
+[3.718s] creating /home/HabitatROS/install/habitat_driver/share/ament_index/resource_index/packages
+[3.719s] symbolically linking /home/HabitatROS/build/habitat_driver/resource/habitat_driver -> /home/HabitatROS/install/habitat_driver/share/ament_index/resource_index/packages
+[3.719s] symbolically linking /home/HabitatROS/build/habitat_driver/package.xml -> /home/HabitatROS/install/habitat_driver/share/habitat_driver
+[3.840s] Invoked command in '/home/HabitatROS/build/habitat_driver' returned '0': PYTHONPATH=/home/HabitatROS/build/habitat_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/HabitatROS/build/habitat_driver/build --no-deps symlink_data

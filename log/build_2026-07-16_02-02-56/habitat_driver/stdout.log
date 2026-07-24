@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating habitat_driver.egg-info
+writing habitat_driver.egg-info/PKG-INFO
+writing dependency_links to habitat_driver.egg-info/dependency_links.txt
+writing entry points to habitat_driver.egg-info/entry_points.txt
+writing requirements to habitat_driver.egg-info/requires.txt
+writing top-level names to habitat_driver.egg-info/top_level.txt
+writing manifest file 'habitat_driver.egg-info/SOURCES.txt'
+reading manifest file 'habitat_driver.egg-info/SOURCES.txt'
+writing manifest file 'habitat_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/HabitatROS/install/habitat_driver/lib/python3.10/site-packages/habitat-driver.egg-link (link to .)
+Installing sht41_node script to /home/HabitatROS/install/habitat_driver/lib/habitat_driver
+
+Installed /home/HabitatROS/build/habitat_driver
+running symlink_data
+creating /home/HabitatROS/install/habitat_driver/share/ament_index
+creating /home/HabitatROS/install/habitat_driver/share/ament_index/resource_index
+creating /home/HabitatROS/install/habitat_driver/share/ament_index/resource_index/packages
+symbolically linking /home/HabitatROS/build/habitat_driver/resource/habitat_driver -> /home/HabitatROS/install/habitat_driver/share/ament_index/resource_index/packages
+symbolically linking /home/HabitatROS/build/habitat_driver/package.xml -> /home/HabitatROS/install/habitat_driver/share/habitat_driver

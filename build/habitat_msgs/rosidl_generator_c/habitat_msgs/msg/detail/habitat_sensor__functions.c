@@ -12,6 +12,8 @@
 
 
 // Include directives for member types
+// Member `header`
+#include "std_msgs/msg/detail/header__functions.h"
 // Member `sensor_id`
 #include "rosidl_runtime_c/string_functions.h"
 
@@ -19,6 +21,11 @@ bool
 habitat_msgs__msg__HabitatSensor__init(habitat_msgs__msg__HabitatSensor * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__init(&msg->header)) {
+    habitat_msgs__msg__HabitatSensor__fini(msg);
     return false;
   }
   // temperature_c
@@ -37,6 +44,8 @@ habitat_msgs__msg__HabitatSensor__fini(habitat_msgs__msg__HabitatSensor * msg)
   if (!msg) {
     return;
   }
+  // header
+  std_msgs__msg__Header__fini(&msg->header);
   // temperature_c
   // humidity_percent
   // sensor_id
@@ -47,6 +56,12 @@ bool
 habitat_msgs__msg__HabitatSensor__are_equal(const habitat_msgs__msg__HabitatSensor * lhs, const habitat_msgs__msg__HabitatSensor * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header), &(rhs->header)))
+  {
     return false;
   }
   // temperature_c
@@ -72,6 +87,12 @@ habitat_msgs__msg__HabitatSensor__copy(
   habitat_msgs__msg__HabitatSensor * output)
 {
   if (!input || !output) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__copy(
+      &(input->header), &(output->header)))
+  {
     return false;
   }
   // temperature_c

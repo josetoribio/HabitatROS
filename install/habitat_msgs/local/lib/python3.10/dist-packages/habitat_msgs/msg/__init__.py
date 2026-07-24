@@ -1,1 +1,1 @@
-from habitat_msgs.msg._habitat_sensor import HabitatSensor  # noqa: F401
+/home/HabitatROS/build/habitat_msgs/rosidl_generator_py/habitat_msgs/msg/__init__.py

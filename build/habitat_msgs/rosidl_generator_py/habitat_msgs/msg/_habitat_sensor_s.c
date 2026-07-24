@@ -19,6 +19,10 @@
 #include "rosidl_runtime_c/string.h"
 #include "rosidl_runtime_c/string_functions.h"
 
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool habitat_msgs__msg__habitat_sensor__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -53,6 +57,17 @@ bool habitat_msgs__msg__habitat_sensor__convert_from_py(PyObject * _pymsg, void 
     assert(strncmp("habitat_msgs.msg._habitat_sensor.HabitatSensor", full_classname_dest, 46) == 0);
   }
   habitat_msgs__msg__HabitatSensor * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
   {  // temperature_c
     PyObject * field = PyObject_GetAttrString(_pymsg, "temperature_c");
     if (!field) {
@@ -108,6 +123,20 @@ PyObject * habitat_msgs__msg__habitat_sensor__convert_to_py(void * raw_ros_messa
     }
   }
   habitat_msgs__msg__HabitatSensor * ros_message = (habitat_msgs__msg__HabitatSensor *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // temperature_c
     PyObject * field = NULL;
     field = PyFloat_FromDouble(ros_message->temperature_c);

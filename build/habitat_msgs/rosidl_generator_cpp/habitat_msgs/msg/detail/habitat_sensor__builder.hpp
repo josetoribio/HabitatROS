@@ -56,13 +56,29 @@ private:
 class Init_HabitatSensor_temperature_c
 {
 public:
-  Init_HabitatSensor_temperature_c()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_HabitatSensor_temperature_c(::habitat_msgs::msg::HabitatSensor & msg)
+  : msg_(msg)
   {}
   Init_HabitatSensor_humidity_percent temperature_c(::habitat_msgs::msg::HabitatSensor::_temperature_c_type arg)
   {
     msg_.temperature_c = std::move(arg);
     return Init_HabitatSensor_humidity_percent(msg_);
+  }
+
+private:
+  ::habitat_msgs::msg::HabitatSensor msg_;
+};
+
+class Init_HabitatSensor_header
+{
+public:
+  Init_HabitatSensor_header()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_HabitatSensor_temperature_c header(::habitat_msgs::msg::HabitatSensor::_header_type arg)
+  {
+    msg_.header = std::move(arg);
+    return Init_HabitatSensor_temperature_c(msg_);
   }
 
 private:
@@ -80,7 +96,7 @@ template<>
 inline
 auto build<::habitat_msgs::msg::HabitatSensor>()
 {
-  return habitat_msgs::msg::builder::Init_HabitatSensor_temperature_c();
+  return habitat_msgs::msg::builder::Init_HabitatSensor_header();
 }
 
 }  // namespace habitat_msgs

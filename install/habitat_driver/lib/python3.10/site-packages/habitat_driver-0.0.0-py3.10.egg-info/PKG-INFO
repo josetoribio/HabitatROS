@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: habitat-driver
+Version: 0.0.0
+Summary: ROS 2 driver for habitat monitoring system
+Home-page: UNKNOWN
+Maintainer: Jose
+Maintainer-email: josef.toribio.dev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

@@ -1,0 +1,1 @@
+/home/HabitatROS/build/habitat_msgs/rosidl_generator_py/habitat_msgs/__init__.py

@@ -1,8 +1,1 @@
-setup.py
-habitat_msgs/__init__.py
-habitat_msgs.egg-info/PKG-INFO
-habitat_msgs.egg-info/SOURCES.txt
-habitat_msgs.egg-info/dependency_links.txt
-habitat_msgs.egg-info/top_level.txt
-habitat_msgs/msg/__init__.py
-habitat_msgs/msg/_habitat_sensor.py
+/home/HabitatROS/build/habitat_msgs/ament_cmake_python/habitat_msgs/habitat_msgs.egg-info/SOURCES.txt

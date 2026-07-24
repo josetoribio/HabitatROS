@@ -223,16 +223,24 @@ CMakeFiles/habitat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fa
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/malloc.h \
   rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__functions.h \
   /usr/include/c++/11/stdlib.h \
   rosidl_generator_c/habitat_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
 
 
 rosidl_generator_c/habitat_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/c++/11/stdlib.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
 rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__struct.h:
 
@@ -289,6 +297,8 @@ rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__struct.h:
 /opt/ros/humble/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h:
 
 /usr/include/strings.h:
 
@@ -543,6 +553,8 @@ rosidl_typesupport_fastrtps_c/habitat_msgs/msg/detail/habitat_sensor__rosidl_typ
 /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 

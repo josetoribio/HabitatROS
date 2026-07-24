@@ -94,7 +94,14 @@ rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: CMakeF
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: CMakeFiles/habitat_msgs__rosidl_generator_py.dir/build.make
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: libhabitat_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: libhabitat_msgs__rosidl_generator_c.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/habitat_msgs/libhabitat_msgs__rosidl_generator_py.so: CMakeFiles/habitat_msgs__rosidl_generator_py.dir/link.txt

@@ -18,12 +18,15 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__struct.h"
 // Member 'sensor_id'
 #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/HabitatSensor in the package habitat_msgs.
 typedef struct habitat_msgs__msg__HabitatSensor
 {
+  std_msgs__msg__Header header;
   float temperature_c;
   float humidity_percent;
   rosidl_runtime_c__String sensor_id;

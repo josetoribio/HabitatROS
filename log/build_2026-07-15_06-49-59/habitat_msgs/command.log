@@ -1,6 +1,0 @@
-Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/HabitatROS/src/habitat_msgs -DCMAKE_INSTALL_PREFIX=/home/HabitatROS/install/habitat_msgs
-Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/HabitatROS/src/habitat_msgs -DCMAKE_INSTALL_PREFIX=/home/HabitatROS/install/habitat_msgs
-Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/HabitatROS/build/habitat_msgs -- -j4 -l4
-Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/HabitatROS/build/habitat_msgs -- -j4 -l4
-Invoking command in '/home/HabitatROS/build/habitat_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/HabitatROS/build/habitat_msgs
-Invoked command in '/home/HabitatROS/build/habitat_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/HabitatROS/build/habitat_msgs

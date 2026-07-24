@@ -244,6 +244,8 @@ CMakeFiles/habitat_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hab
   rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__type_support.h \
   rosidl_generator_c/habitat_msgs/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/habitat_msgs/msg/detail/habitat_sensor__functions.h
@@ -258,6 +260,8 @@ CMakeFiles/habitat_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hab
 /usr/include/python3.10/eval.h:
 
 /usr/include/python3.10/cpython/import.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
 /usr/include/python3.10/import.h:
 
@@ -294,6 +298,8 @@ rosidl_generator_c/habitat_msgs/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 
