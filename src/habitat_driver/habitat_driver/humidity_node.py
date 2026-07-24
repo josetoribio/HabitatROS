@@ -4,7 +4,7 @@ from habitat_driver.ema import Ema
 from habitat_msgs.msg import HabitatSensor
 
 
-class MinimalSubscriber(Node):
+class Humidity_Node(Node):
 
     def __init__(self):
         super().__init__('sht41_ema_filter')
@@ -44,11 +44,11 @@ class MinimalSubscriber(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_subscriber = MinimalSubscriber()
+    humidity_node = Humidity_Node()
 
-    rclpy.spin(minimal_subscriber)
+    rclpy.spin(humidity_node)
 
-    minimal_subscriber.destroy_node()
+    humidity_node.destroy_node()
     rclpy.shutdown()
 
 

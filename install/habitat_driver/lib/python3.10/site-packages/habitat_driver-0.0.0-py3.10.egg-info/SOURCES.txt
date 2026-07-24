@@ -10,9 +10,8 @@ setup.py
 ../../build/habitat_driver/habitat_driver.egg-info/zip-safe
 habitat_driver/__init__.py
 habitat_driver/ema.py
+habitat_driver/humidity_node.py
 habitat_driver/sht41_node.py
-habitat_driver/sht41_node1.py
-habitat_driver/sub.py
 resource/habitat_driver
 test/test_copyright.py
 test/test_flake8.py
