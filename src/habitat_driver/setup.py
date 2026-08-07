@@ -33,7 +33,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'sht41_node = habitat_driver.sht41_node:main','humidity_node = habitat_driver.humidity_node:main',
+            'sht41_node = habitat_driver.sht41_node:main','ema_node = habitat_driver.humidity_node:main',
         ],
     },
 )
